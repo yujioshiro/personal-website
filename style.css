@@ -46,4 +46,5 @@ h1 {
 footer {
   position: absolute;
   bottom: 0;
+  display: inline-block;
 }
