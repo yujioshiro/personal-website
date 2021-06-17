@@ -11,7 +11,6 @@ let skillsTitle = document.getElementById("skills-title");
 
 
 scrollBox.addEventListener("scroll", (event => {
-  console.log(scrollBox.scrollTop);
   checkYPosition();
 }))
 
