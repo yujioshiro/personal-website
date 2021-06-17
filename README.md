@@ -13,5 +13,5 @@ This site was built in vanilla HTML/CSS/JS, no library or framework was used. Th
 
 # Timeline
 
-## June 16th:
+### June 16th:
 Website created, implemented scroll listener
