@@ -3,6 +3,8 @@ Personal website for me, Yuji Oshiro. This website only works on desktop as scro
 
 [www.yujioshiro.com](www.yujioshiro.com)
 
+[Development Site](https://yujioshiro.github.io/personal-website/)
+
 # How I built it
 This site was built in vanilla HTML/CSS/JS, no library or framework was used. The graphics were created in Inkscape and the entire project was started on June 16th after about 3 months of studying web development (log can be found below).
 
