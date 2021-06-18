@@ -2,8 +2,6 @@
 Personal website for me, Yuji Oshiro. This website only works on desktop as scrolling behaviors are different on mobile devices. The mobile/tablet site is a standard website, so definitely check it out on a desktop for the full experience!  
 
 [www.yujioshiro.com](www.yujioshiro.com)  
-  
-test
 
 [Development Site](https://yujioshiro.github.io/personal-website/)
 
