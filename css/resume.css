@@ -49,10 +49,27 @@ padding-bottom: 1em;
   height: 2em;
 }
 
-.information-sections {
-  box-shadow: 2px 3px 5px;
+.information-box {
+  box-shadow: .2em .3em .5em;
   padding: .4em;
   margin: .5em 0 .5em 0;
+  text-align: center;
+}
+
+.list-section {
+  height: 21.8em;
+}
+
+#project-skill-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#work-education-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
 .left-side {
@@ -60,7 +77,7 @@ padding-bottom: 1em;
 }
 
 .right-side {
-  width: 20em;
+  width: 22.5em;
 }
 
 #about-section {
