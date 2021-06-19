@@ -9,7 +9,7 @@ body {
 
 #resume-section-container {
   width: 60em;
-  height: 70em;
+  height: 110em;
   margin: auto;
   box-shadow: 5px 8px 40px;
   margin-top: 3em;
@@ -20,7 +20,7 @@ body {
 
 #resume-section {
   width: 55em;
-  height: 65em;
+  height: 105em;
 }
 
 #contact-information {
@@ -73,10 +73,16 @@ padding-bottom: 1em;
   justify-content: space-between;
 }
 
-#work-education-container {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+.skill-logo {
+  height: 6em;
+}
+
+#work-container {
+  height: 40em;
+}
+
+#work-history-section {
+  height: 38.8em;
 }
 
 .left-side {
