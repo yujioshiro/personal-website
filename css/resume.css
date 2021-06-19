@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 2em;
+  border-radius: 1.7em;
 }
 
 #resume-section {
