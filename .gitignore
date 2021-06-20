@@ -1,2 +1,5 @@
 # ignoring the live server file
 .atom-live-server.json
+
+# ignore Apple file
+.DS_Store
