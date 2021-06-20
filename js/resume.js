@@ -2,8 +2,10 @@ let email = document.getElementById("email-address");
 let emailButton = document.getElementById("email-logo");
 
 emailButton.addEventListener("click", () => {
+  email.setAttribute("value", "iamyujioshiro@gmail.com");
   email.setAttribute("type", "text");
   copyEmailToClipboard();
+  email.setAttribute("value", "");
   email.setAttribute("type", "hidden");
 })
 
