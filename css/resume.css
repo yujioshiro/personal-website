@@ -121,6 +121,9 @@ padding-bottom: 1em;
   margin: 0;
 }
 
+#hobbies-section p {
+  margin: .3em .8em .3em .8em;
+}
 
 .left-side {
   width: 30em;
