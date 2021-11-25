@@ -2,7 +2,7 @@ let email = document.getElementById("email-address");
 let emailButton = document.getElementById("email-logo");
 
 emailButton.addEventListener("click", () => {
-  email.setAttribute("value", "yujimoshiro@gmail.com");
+  email.setAttribute("value", "iamyujioshiro@gmail.com");
   email.setAttribute("type", "text");
   copyEmailToClipboard();
   email.setAttribute("value", "");
@@ -10,7 +10,7 @@ emailButton.addEventListener("click", () => {
 })
 
 copyEmailToClipboard = () => {
-  if (confirm("Copy yujimoshiro@gmail.com to clipboard?")) {
+  if (confirm("Copy iamyujioshiro@gmail.com to clipboard?")) {
     email.select();
     email.setSelectionRange(0, 99999);
     document.execCommand("copy");
