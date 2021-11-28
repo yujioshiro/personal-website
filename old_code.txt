@@ -23,3 +23,78 @@
 </body>
 
 </html> -->
+
+
+
+
+
+
+**********************************
+*                                *
+*  OLD JAVASCRIPT SCROLLING CODE *
+*                                *
+**********************************
+@font-face {
+  font-family: poppins;
+  src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: poppins;
+}
+
+
+/* The code below is for the main page that scrolls, it is not needed in the current iteration of the homepage */
+
+#pseudo-scroll {
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  background: rgba(0, 0, 0, 0);
+  z-index: 10;
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#pseudo-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.interior {
+  color: rgba(0, 0, 0, 0);
+  line-height: 28000px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  position: absolute;
+  font-size: 8em;
+  z-index: 2;
+  zoom: 0.00000000000000000000000000000000001;
+}
+
+.titles {
+  visibility: hidden;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
