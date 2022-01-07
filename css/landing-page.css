@@ -1,0 +1,109 @@
+/* Everything underneath here stylizes the entire HTML */
+
+html {
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #ffe257;
+  margin-top: 5vw;
+}
+
+.all-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-containers-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.content-containers-container:nth-child(odd) {
+  background-color: white;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  height: 65vh;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+/* The code below stylizes the "home" tab, or the tab that has my name and profile picture.*/
+
+.content-container#home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 70%;
+}
+
+#my-face {
+  width: 40%;
+  height: auto;
+  border-radius: 15%;
+}
+
+/* The code below stylizes the "experience" tab, or the tab that shows my previous work experiece. */
+
+.individual-experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.experience-title {
+  margin-left: 10%;
+}
+
+.experience-descriptions-list {
+  width: 40%;
+}
+
+
+/* The code below stylizes the "projects" tab which shows my most challenging projects (projects I want to brag about). */
+
+.project-carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.individual-project {
+  margin: 10px;
+}
+
+.individual-project .project-demo-gif {
+  width: 100%;
+}
+
+
+/* The code below stylizes the various website icons that I can be contacted at. */
+
+.icons-container {
+  width: 80%
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  width: 60px;
+  margin: 10px;
+}
