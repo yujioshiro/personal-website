@@ -1,3 +1,5 @@
 .atom-live-server.json
 .DS_Store
+/oldHTML
 notes.md
+old_code.txt

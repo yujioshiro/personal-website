@@ -1,64 +1,225 @@
-@font-face {
-  font-family: poppins;
-  src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
-}
-
-html {
-  scroll-behavior: smooth;
-}
-body {
-  font-family: poppins;
-}
-
-
-/* The code below is for the main page that scrolls, it is not needed in the current iteration of the homepage */
-
-#pseudo-scroll {
-  width: 100vw;
-  height: 100vh;
-  overflow: scroll;
-  background: rgba(0, 0, 0, 0);
-  z-index: 10;
-
-  /* Hide scrollbar for IE, Edge and Firefox */
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-#pseudo-scroll::-webkit-scrollbar {
-  display: none;
-}
-
-.interior {
-  color: rgba(0, 0, 0, 0);
-  line-height: 28000px;
-  margin: 0;
+*, *::before, *::after {
   padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 body {
-  width: 100vw;
+  background-color: black;
   height: 100vh;
-  margin: 0;
-  padding: 0;
+  display: grid;
+  grid-template: repeat(20, 1fr) / repeat(20, 1fr);
+  overflow: hidden;
+}
+
+.cell {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #fff1;
+  z-index: 2;
+}
+
+.cell:nth-child(20n + 1):hover~.content {
+  --positionX: 0;
+}
+
+.cell:nth-child(n + 1):nth-child(-n + 20):hover~.content {
+  --positionY: 0;
+}
+
+.cell:nth-child(20n + 2):hover~.content {
+  --positionX: 1;
+}
+
+.cell:nth-child(n + 21):nth-child(-n + 40):hover~.content {
+  --positionY: 1;
+}
+
+.cell:nth-child(20n + 3):hover~.content {
+  --positionX: 2;
+}
+
+.cell:nth-child(n + 41):nth-child(-n + 60):hover~.content {
+  --positionY: 2;
+}
+
+.cell:nth-child(20n + 4):hover~.content {
+  --positionX: 3;
+}
+
+.cell:nth-child(n + 61):nth-child(-n + 80):hover~.content {
+  --positionY: 3;
+}
+
+.cell:nth-child(20n + 5):hover~.content {
+  --positionX: 4;
+}
+
+.cell:nth-child(n + 81):nth-child(-n + 100):hover~.content {
+  --positionY: 4;
+}
+
+.cell:nth-child(20n + 6):hover~.content {
+  --positionX: 5;
+}
+
+.cell:nth-child(n + 101):nth-child(-n + 120):hover~.content {
+  --positionY: 5;
+}
+
+.cell:nth-child(20n + 7):hover~.content {
+  --positionX: 6;
+}
+
+.cell:nth-child(n + 121):nth-child(-n + 140):hover~.content {
+  --positionY: 6;
+}
+
+.cell:nth-child(20n + 8):hover~.content {
+  --positionX: 7;
+}
+
+.cell:nth-child(n + 141):nth-child(-n + 160):hover~.content {
+  --positionY: 7;
+}
+
+.cell:nth-child(20n + 9):hover~.content {
+  --positionX: 8;
+}
+
+.cell:nth-child(n + 161):nth-child(-n + 180):hover~.content {
+  --positionY: 8;
+}
+
+.cell:nth-child(20n + 10):hover~.content {
+  --positionX: 9;
+}
+
+.cell:nth-child(n + 181):nth-child(-n + 200):hover~.content {
+  --positionY: 9;
+}
+
+.cell:nth-child(20n + 11):hover~.content {
+  --positionX: 10;
+}
+
+.cell:nth-child(n + 201):nth-child(-n + 220):hover~.content {
+  --positionY: 10;
+}
+
+.cell:nth-child(20n + 12):hover~.content {
+  --positionX: 11;
+}
+
+.cell:nth-child(n + 221):nth-child(-n + 240):hover~.content {
+  --positionY: 11;
+}
+
+.cell:nth-child(20n + 13):hover~.content {
+  --positionX: 12;
+}
+
+.cell:nth-child(n + 241):nth-child(-n + 260):hover~.content {
+  --positionY: 12;
+}
+
+.cell:nth-child(20n + 14):hover~.content {
+  --positionX: 13;
+}
+
+.cell:nth-child(n + 261):nth-child(-n + 280):hover~.content {
+  --positionY: 13;
+}
+
+.cell:nth-child(20n + 15):hover~.content {
+  --positionX: 14;
+}
+
+.cell:nth-child(n + 281):nth-child(-n + 300):hover~.content {
+  --positionY: 14;
+}
+
+.cell:nth-child(20n + 16):hover~.content {
+  --positionX: 15;
+}
+
+.cell:nth-child(n + 301):nth-child(-n + 320):hover~.content {
+  --positionY: 15;
+}
+
+.cell:nth-child(20n + 17):hover~.content {
+  --positionX: 16;
+}
+
+.cell:nth-child(n + 321):nth-child(-n + 340):hover~.content {
+  --positionY: 16;
+}
+
+.cell:nth-child(20n + 18):hover~.content {
+  --positionX: 17;
+}
+
+.cell:nth-child(n + 341):nth-child(-n + 360):hover~.content {
+  --positionY: 17;
+}
+
+.cell:nth-child(20n + 19):hover~.content {
+  --positionX: 18;
+}
+
+.cell:nth-child(n + 361):nth-child(-n + 380):hover~.content {
+  --positionY: 18;
+}
+
+.cell:nth-child(20n + 20):hover~.content {
+  --positionX: 19;
+}
+
+.cell:nth-child(n + 381):nth-child(-n + 400):hover~.content {
+  --positionY: 19;
+}
+
+.content {
+  --positionX: 10;
+  --positionY: 10;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-h1 {
-  position: absolute;
-  font-size: 8em;
-  z-index: 2;
-  zoom: 0.00000000000000000000000000000000001;
-}
-
-.titles {
-  visibility: hidden;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
+  background-image:
+		url('https://assets.codepen.io/1948355/parallaxDemo1.png'),
+		url('https://assets.codepen.io/1948355/parallaxDemo2.png'),
+		url('https://assets.codepen.io/1948355/parallaxDemo3.png'),
+		url('https://assets.codepen.io/1948355/parallaxDemo4.png'),
+		url('https://assets.codepen.io/1948355/parallaxDemo5.png'),
+		url('https://assets.codepen.io/1948355/parallaxDemo6.png'),
+		url('https://assets.codepen.io/1948355/parallaxDemo7.png'),
+		url('https://assets.codepen.io/1948355/parallaxDemo8.png'),
+		url('');
+  background-position:
+		calc(50% + 20px - var(--positionX) * 2 * 4px) calc(50% + 20px - var(--positionY) * 4px),
+		calc(50% + 15px - var(--positionX) * 2 * 3px) calc(50% + 15px - var(--positionY) * 3px),
+		calc(50% + 10px - var(--positionX) * 2 * 2px) calc(50% + 10px - var(--positionY) * 2px),
+		calc(50% + 5px - var(--positionX) * 2 * 1px) calc(50% + 5px - var(--positionY) * 1px),
+		calc(50% + 0px - var(--positionX) * 2 * 0px) calc(50% + 0px - var(--positionY) * 0px),
+		calc(50% + -5px - var(--positionX) * 2 * -1px) calc(50% + -5px - var(--positionY) * -1px),
+		calc(50% + -10px - var(--positionX) * 2 * -2px) calc(50% + -10px - var(--positionY) * -2px),
+		calc(50% + -15px - var(--positionX) * 2 * -3px) calc(50% + -15px - var(--positionY) * -3px),
+		center;
+		/* calc(50% + 80px - var(--positionX) * 2 * 4px) calc(50% + 40px - var(--positionY) * 4px),
+    calc(50% + 60px - var(--positionX) * 2 * 3px) calc(50% + 30px - var(--positionY) * 3px),
+		calc(50% + 40px - var(--positionX) * 2 * 2px) calc(50% + 20px - var(--positionY) * 2px),
+		calc(50% + 20px - var(--positionX) * 2 * 1px) calc(50% + 10px - var(--positionY) * 1px),
+		calc(50% + 0px - var(--positionX) * 2 * 0px) calc(50% + 0px - var(--positionY) * 0px),
+		calc(50% + -20px - var(--positionX) * 2 * -1px) calc(50% + -10px - var(--positionY) * -1px),
+		calc(50% + -40px - var(--positionX) * 2 * -2px) calc(50% + -20px - var(--positionY) * -2px),
+		calc(50% + -60px - var(--positionX) * 2 * -3px) calc(50% + -30px - var(--positionY) * -3px),
+		center; */
+  background-size: cover;
+  background-repeat: repeat-x;
+  transition: all 0.8s;
 }

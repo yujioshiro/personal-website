@@ -1,0 +1,41 @@
+.fixed-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #323f5b;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 10px;
+  height: 5vw;
+}
+
+.header-links-container {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+}
+
+.header-links-container li {
+  list-style: none;
+  padding: 0 20px;
+  font-size: 180%
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.initials {
+  font-size: 180%;
+}
