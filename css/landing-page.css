@@ -21,7 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  background-color: #ffe257;
+  background-color: white;
 }
 
 .all-content-container {
@@ -36,8 +36,8 @@ body {
   width: 100vw;
 }
 
-.content-containers-container:nth-child(odd) {
-  background-color: white;
+.content-containers-container:nth-child(even) {
+  background-color: #ffe257;
 }
 
 .content-container {
@@ -47,12 +47,13 @@ body {
   width: 70%;
   padding-top: 20px;
   padding-bottom: 20px;
-  scroll-margin-top: 2rem;
+  scroll-margin-top: 3rem;
 }
 
 h2 {
-  font-size: 2.5em;
-  margin-top: 0;
+  font-size: 2.8em;
+  margin: 0;
+  align-self: flex-start;
 }
 
 /* The code below stylizes the "home" tab, or the tab that has my name and profile picture.*/
@@ -68,20 +69,15 @@ h2 {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 6em;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .main-text h3 {
-  font-size: 90%;
-}
-
-#my-face {
-  width: 50%;
-  height: auto;
-  border-radius: 15%;
-  margin-left: 10px;
+  font-size: 2em;
+  opacity: .4;
+  text-align: center;
 }
 
 /* The code below stylizes the "experience" tab, or the tab that shows my previous work experiece. */
@@ -134,7 +130,6 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
   scroll-margin-top: 10rem;
 }
 

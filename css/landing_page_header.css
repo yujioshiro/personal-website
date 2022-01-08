@@ -43,4 +43,20 @@ a:hover {
 .initials {
   font-size: 180%;
   color: #ffe257;
+  margin: 0;
+  text-align: center;
+}
+
+#my-face {
+  height: 30px;
+  border-radius: 15%;
+  margin-right: 10px;
+
+}
+
+.face-and-initials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
