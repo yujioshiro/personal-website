@@ -52,6 +52,7 @@ body {
 
 h2 {
   font-size: 2.5em;
+  margin-top: 0;
 }
 
 /* The code below stylizes the "home" tab, or the tab that has my name and profile picture.*/
@@ -127,12 +128,13 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
 .icons-container {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+
   scroll-margin-top: 10rem;
 }
 
