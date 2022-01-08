@@ -2,7 +2,8 @@
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #323f5b;
+  /* background-color: #323f5b; */
+  background-color: white;
 }
 
 header {
@@ -11,7 +12,8 @@ header {
   justify-content: space-around;
   align-items: center;
   padding-left: 10px;
-  height: 5vw;
+  height: 8vh;
+  min-height: 7vh;
 }
 
 .header-links-container {
@@ -22,20 +24,23 @@ header {
 
 .header-links-container li {
   list-style: none;
-  padding: 0 20px;
-  font-size: 180%
+  padding: 0 10px;
+  font-size: 110%
 
 }
 
-a {
+a, a:link, a:active, a:visited {
   text-decoration: none;
+  color: grey;
+  transition: 0.8s;
 }
 
-a:active, a:visited {
+a:hover {
   text-decoration: none;
   color: black;
 }
 
 .initials {
   font-size: 180%;
+  color: #ffe257;
 }

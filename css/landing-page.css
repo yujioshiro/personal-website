@@ -1,8 +1,18 @@
 /* Everything underneath here stylizes the entire HTML */
 
+@font-face {
+  font-family: roboto;
+  src: url(/assets/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(/assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
 html {
   scroll-behavior: smooth;
-  font-family: sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 body {
@@ -12,7 +22,7 @@ body {
   align-items: center;
   margin: 0;
   background-color: #ffe257;
-  margin-top: 5vw;
+  margin-top: 5vh;
 }
 
 .all-content-container {
@@ -36,11 +46,13 @@ body {
   flex-direction: column;
   align-items: center;
   width: 70%;
-  height: 65vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h2 {
   font-size: 2.5em;
+  /* scroll-margin-top: 10rem; */
 }
 
 /* The code below stylizes the "home" tab, or the tab that has my name and profile picture.*/
@@ -48,15 +60,27 @@ h2 {
 .content-container#home {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin-top: 20px;
+  justify-content: space-between;
+  padding: 0;
   width: 70%;
+  height: 95vh;
+}
+
+h1 {
+  font-size: 4em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main-text h3 {
+  font-size: 90%;
 }
 
 #my-face {
-  width: 40%;
+  width: 50%;
   height: auto;
   border-radius: 15%;
+  margin-left: 10px;
 }
 
 /* The code below stylizes the "experience" tab, or the tab that shows my previous work experiece. */
@@ -95,15 +119,20 @@ h2 {
 
 /* The code below stylizes the various website icons that I can be contacted at. */
 
+.icons-container-container {
+  display: flex;
+  justify-content: center;
+}
 .icons-container {
-  width: 80%
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  scroll-margin-top: 10rem;
 }
 
 .social-icons {
-  width: 60px;
+  height: 40px;
   margin: 10px;
 }
