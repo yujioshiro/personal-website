@@ -137,3 +137,7 @@ h1 {
   height: 40px;
   margin: 10px;
 }
+
+.social-icons:hover {
+  cursor: pointer;
+}
