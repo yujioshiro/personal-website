@@ -22,7 +22,6 @@ body {
   align-items: center;
   margin: 0;
   background-color: #ffe257;
-  margin-top: 5vh;
 }
 
 .all-content-container {
@@ -48,11 +47,11 @@ body {
   width: 70%;
   padding-top: 20px;
   padding-bottom: 20px;
+  scroll-margin-top: 2rem;
 }
 
 h2 {
   font-size: 2.5em;
-  /* scroll-margin-top: 10rem; */
 }
 
 /* The code below stylizes the "home" tab, or the tab that has my name and profile picture.*/
@@ -63,7 +62,8 @@ h2 {
   justify-content: space-between;
   padding: 0;
   width: 70%;
-  height: 95vh;
+  height: 100vh;
+  scroll-margin-top: 60rem;
 }
 
 h1 {
@@ -101,6 +101,10 @@ h1 {
 
 
 /* The code below stylizes the "projects" tab which shows my most challenging projects (projects I want to brag about). */
+
+.content-container#projects {
+  height: 85vh;
+}
 
 .project-carousel {
   display: flex;

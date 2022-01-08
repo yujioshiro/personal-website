@@ -26,10 +26,10 @@ header {
   list-style: none;
   padding: 0 10px;
   font-size: 110%
-
 }
 
 a, a:link, a:active, a:visited {
+  cursor: default;
   text-decoration: none;
   color: grey;
   transition: 0.8s;
