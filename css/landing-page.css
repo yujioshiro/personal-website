@@ -91,13 +91,13 @@ h1 {
   width: 70%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   scroll-margin-top: 10rem;
 }
 
 .social-icons {
   height: 40px;
-  margin: 10px;
+  margin: 10px 40px;
 }
 
 .social-icons:hover {
