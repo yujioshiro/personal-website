@@ -238,4 +238,8 @@ html {
   .individual-experience:not(:last-child) {
     border-bottom: 2px lightgrey solid;
   }
+
+  #sunset-generator-demo-link {
+    display: none;
+  }
 }
