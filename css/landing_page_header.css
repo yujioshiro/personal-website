@@ -1,5 +1,5 @@
 /* Media query for any non-mobile screen */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 992px) {
   .fixed-header {
     position: fixed;
     width: 100%;
@@ -49,6 +49,10 @@
     text-align: center;
   }
 
+  .full-name {
+    display: none;
+  }
+
   #my-face {
     height: 30px;
     border-radius: 15%;
@@ -65,7 +69,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   header {
     display: none !important;
   }
