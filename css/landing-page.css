@@ -1,5 +1,4 @@
 /* Everything underneath here stylizes the entire HTML for any screen width*/
-
 @font-face {
   font-family: roboto;
   src: url(/assets/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
@@ -10,12 +9,10 @@
   src: url(/assets/fonts/Poppins/Poppins-Regular.ttf);
 }
 
-
 html {
   scroll-behavior: smooth;
   font-family: poppins, sans-serif;
 }
-
 
 @media screen and (min-width: 769px) {
   body {
@@ -61,7 +58,6 @@ html {
   }
 
   /* The code below stylizes the "home" tab, or the tab that has my name and profile picture.*/
-
   .content-container#home {
     display: flex;
     flex-direction: row;
@@ -107,12 +103,8 @@ html {
     cursor: pointer;
   }
 
-
   /* The code below stylizes the "projects" tab which shows my most challenging projects (projects I want to brag about). */
-
-  .content-container#projects {
-
-  }
+  .content-container#projects {}
 
   .project-carousel {
     display: flex;
@@ -135,12 +127,11 @@ html {
     flex-direction: row;
   }
 
-  .multiple-project-gifs-container > .project-demo-gif {
+  .multiple-project-gifs-container>.project-demo-gif {
     width: 33%;
   }
 
   /* The code below stylizes the "experience" tab, or the tab that shows my previous work experiece. */
-
   .individual-experience {
     display: flex;
     flex-direction: row;
@@ -158,11 +149,11 @@ html {
     justify-content: center;
   }
 
-  .experience-title > h4, .experience-title > h3 {
+  .experience-title>h4, .experience-title>h3 {
     margin: 0;
   }
 
-  .experience-title > h4 {
+  .experience-title>h4 {
     opacity: .6;
   }
 
@@ -198,17 +189,16 @@ html {
     background-color: #ffee9d;
   }
 
-    .content-containers-container:first-child {
-      height: 75vh;
-    }
+  .content-containers-container:first-child {
+    height: 75vh;
+  }
 
   .content-container {
     margin: 0 15px;
-
   }
 
   .content-container#home {
-    text-align:center;
+    text-align: center;
   }
 
   .icons-container-container {
@@ -235,13 +225,13 @@ html {
     /* display: none; */
   }
 
-.multiple-project-gifs-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+  .multiple-project-gifs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-  .multiple-project-gifs-container > .project-demo-gif {
+  .multiple-project-gifs-container>.project-demo-gif {
     width: 30%;
   }
 
