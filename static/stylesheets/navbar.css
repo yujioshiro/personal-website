@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 530px;
+    padding-left: 0px;
+}
+
+#main-name {
+    font-size: 75px;
+}
+
+nav > ul > li:not(:first-child) {
+    padding: 10px;
+    font-size: 20px;
+}
