@@ -1,5 +1,7 @@
-.atom-live-server.json
+node_modules
+.cache
+public
+
 .DS_Store
-/oldHTML
-notes.md
-old_code.txt
+# Local Netlify folder
+.netlify

@@ -1,0 +1,35 @@
+{
+    "projects": [
+      {
+        "title": "merchduck website",
+        "liveLink": "https://merchduck.com",
+        "description": "Designed and developed for merchduck. The website utilizes private apis, client side form validation, and accessibility features. You can read about more features on the github repository.",
+        "githubLink": "https://github.com/yujioshiro/merchduck"
+      },
+      {
+        "title": "this website",
+        "liveLink": "N/A",
+        "description": "Built using gatsby.js, hosted on Netlify. The blogs are written in markdown and this page is made with a json!",
+        "githubLink": "https://github.com/yujioshiro/personal-website"
+      },
+      {
+        "title": "Truth or Dare",
+        "liveLink": "N/A",
+        "description": "An Android app built by a team of four students for a CodePath competition. The app posts and gets data from a low-code backend server called Parse.",
+        "githubLink": "https://github.com/TruthorDareApp/Truth-or-Dare"
+      },
+      {
+        "title": "Sunset Generator",
+        "liveLink": "",
+        "description": "A visual website that sets a beach scene based on your location using the weather api.",
+        "githubLink": "https://github.com/yujioshiro/sunset-generator"
+      },
+      {
+        "title": "Calculator",
+        "liveLink": "https://yujioshiro.github.io/calculator/",
+        "description": "A calculator that runs inside the browser",
+        "githubLink": "https://github.com/yujioshiro/calculator"
+      }
+    ]
+  }
+  
