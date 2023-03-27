@@ -7,7 +7,7 @@ module.exports = {
     title: `Yuji Oshiro`,
     siteUrl: `https://yujioshiro.com`
   },
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-sitemap",
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-netlify",
   {
     resolve: "gatsby-plugin-web-font-loader",
     options: {
