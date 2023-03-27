@@ -7,14 +7,7 @@ module.exports = {
     title: `Yuji Oshiro`,
     siteUrl: `https://yujioshiro.com`
   },
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      "name": "pages",
-      "path": "./src/content"
-    },
-    __key: "pages"
-  },
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp",
   {
     resolve: "gatsby-plugin-web-font-loader",
     options: {
@@ -23,7 +16,6 @@ module.exports = {
       },
     },
   },
-  `gatsby-transformer-remark`,
   {
     resolve: "gatsby-plugin-google-gtag",
     options: {
