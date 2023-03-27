@@ -4,9 +4,6 @@
   "private": true,
   "description": "personal-website",
   "author": "Yuji Oshiro",
-  "engines": {
-     "node": ">=18"
-  },
   "keywords": [
     "gatsby"
   ],
