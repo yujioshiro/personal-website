@@ -1,14 +1,19 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import '../../static/stylesheets/styles.css';
+
+// import '../../static/stylesheets/styles.css';
+// import '../../static/stylesheets/homepage-index.css';
 
 
 const IndexPage = () => (
   <Layout>
+    <div class="homepage-sections" id="homepage-about-section">
     <h1>welcome to my website!</h1>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;I am a second year computer science student, <a href="https://merchduck.com">business owner</a>, and curious learner of all things around us. Sometimes I <a href="./blog">write</a> about my findings! My favorite hobby is talking to people and learning more about the human condition.</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;I am a second year computer science student, <a href="https://merchduck.com" target="_blank" rel="noreferrer">business owner</a>, and curious learner of all things around us. {/*Sometimes I <a href="./blog">write</a> about my findings!*/} My favorite hobby is talking to people and learning more about the human condition.</p>
+    </div>
 
-    {/* <h2>experiences</h2>
+    {/* <div class="homepage-sections" id="homepage-experiences-section">
+    <h2>experiences</h2>
     <ul>
       <li>merchduck // owner & operator</li>
       <ul>
@@ -26,35 +31,50 @@ const IndexPage = () => (
         <li>ensure the flow of production runs efficiently</li>
       </ul>
     </ul>
-    
-    <h2>education</h2>
-    <p>I am currently in my second year of computer science at Irvine Valley College, a 2-year community college in Irvine, California. I will be continuing my computer science studies at ___ this upcoming Fall semester and will be obtaining a bachelors degree in Spring 2025.</p> */}
+    </div> */}
 
-    <h2>what I'm currently working on</h2>
-    <ul>
-      <li>merchduck website, vanilla JS</li>
-      <li>merchandise order management system, react/node</li>
-      <li>this website, gatsby.js</li>
+    {/* <div class="homepage-sections" id="homepage-education-section">
+      <h2>education</h2>
+      <p>I am currently in my second year of computer science at Irvine Valley College, a 2-year community college in Irvine, California. I will be continuing my computer science studies at ___ this upcoming Fall semester and will be obtaining a bachelors degree in Spring 2025.</p>
+    </div> */}
+
+    <div class="homepage-sections" id="homepage-projects-section">
+      <h2 class="main-page-subheadings">what I'm working on</h2>
+      <ul class="main-page-descriptions">
+        <li><a href="https://merchduck.com">merchduck website</a>, vanilla js, view <a href="https://github.com/yujioshiro/merchduck/tree/landing-page-redesign">github repo</a></li>
+        <li>this website, gatsby.js, view <a href="https://github.com/yujioshiro/personal-website">github repo</a></li>
+       <li>view <a href="/projects">past projects</a></li>
+      </ul>
+    </div>
+
+    {/* <div class="homepage-sections" id="homepage-blog-section">
+      <h2 class="main-page-subheadings">what I've written about recently</h2>
+      <ul class="main-page-descriptions">
+      </ul>
+    </div> */}
+
+    <div class="homepage-sections">
+<h2 class="main-page-subheadings" id="homepage-searching-section">what I'm looking for</h2>
+    <ul class="main-page-descriptions">
+      <li>a software developer internship, review my <a href="/resume">resume</a></li>
+      <li>to support a research group with programming and data processing tasks, <a href="/contact">recruit me</a></li>
+      <ul>
+        <li>preference for research groups working with natural world data, human population data, and space</li>
+      </ul>
     </ul>
+</div>
+{/* <div class="homepage-sections">
+
+</div> */}
+
     
-    <h2>what I've written about recently</h2>
+
+
+
     
-    <h2>what I'm currently looking for</h2>
-    <ul>
-      <li>a jr software developer position</li>
-      <ul>
-        <li>no preference on industry</li>
-        <li>hoping to be part of a team that follows standard development practices and believes in management of people over products</li>
-      </ul>
-      <li>any research groups that need a programmer on their team</li>
-      <ul>
-        <li>preference for research groups working with natural world data, i.e. animal/plant biology, human population, space</li>
-      </ul>
-      <li>any interesting articles or topics</li>
-      <ul>
-        <li></li>
-      </ul>
-    </ul>
+
+    
+
   </Layout>
 );
 

@@ -1,11 +1,15 @@
 import React from 'react';
-import Navbar from './Navbar';
+import NavBar from './NavBar';
+import './../../static/stylesheets/pico-master/css/pico.css';
+// import './../../static/stylesheets/examples-master/bootstrap-grid/css/pico-bootstrap-grid.css';
+
 
 export default function Layout({ children }) {
   return (
-    <>
-      <Navbar />
-      <main>{children}</main>
-    </>
+          
+      <main class="container">
+        <NavBar />
+        {children}
+      </main>
   );
 }

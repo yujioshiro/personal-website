@@ -8,7 +8,7 @@ const Resume = () => {
     setTimeout(() => {
       const objectElement = objectRef.current
       const { width } = objectElement.getBoundingClientRect()
-      const aspectRatio = 1.2941 // Replace with the aspect ratio of your PDF
+      const aspectRatio = 1.2941 // Replace with the aspect ratio of PDF
       const height = width * aspectRatio
       objectElement.style.height = `${height}px`
       console.log('Height updated:', height)
@@ -16,17 +16,16 @@ const Resume = () => {
   }
 
   React.useEffect(() => {
-    window.onload = updateHeight;
-  })
+    updateHeight();
+  }, [])
 
   React.useEffect(() => {
-    console.log("resized");
     window.onresize = updateHeight;
   })
 
   return (
     <Layout>
-        <object ref={objectRef} data="../resume/resume.pdf" type="application/pdf" width="100%" height="1000px">
+        <object ref={objectRef} data="../resume/resume.pdf" type="application/pdf" width="100%" height="905px">
             <p>PDF cannot be displayed. Please download it instead.</p>
         </object>
     </Layout>
