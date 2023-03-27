@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
+    "@picocss/pico": "^1.5.7",
     "gatsby": "^5.7.0",
     "gatsby-plugin-google-gtag": "^5.8.0",
     "gatsby-plugin-image": "^3.8.0",

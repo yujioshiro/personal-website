@@ -4,10 +4,10 @@
 module.exports = {
   pathPrefix: "/personal-website",
   siteMetadata: {
-    title: `personal-website`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Yuji Oshiro`,
+    siteUrl: `https://yujioshiro.com`
   },
-  plugins: ["gatsby-plugin-google-gtag", "gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "pages",
@@ -23,5 +23,13 @@ module.exports = {
       },
     },
   },
-  `gatsby-transformer-remark`,]
+  `gatsby-transformer-remark`,
+  {
+    resolve: "gatsby-plugin-google-gtag",
+    options: {
+      trackingIds: [
+        "G-0RWZVT3H8E"
+      ],
+    },
+  }]
 };
