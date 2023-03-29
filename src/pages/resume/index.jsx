@@ -25,7 +25,7 @@ const Resume = () => {
 
   return (
     <Layout>
-        <object ref={objectRef} data="../resume/resume.pdf" type="application/pdf" width="100%" height="905px">
+        <object ref={objectRef} data={`../resume/resume.pdf?v=${new Date().getTime()}`} type="application/pdf" width="100%" height="905px">
             <p>PDF cannot be displayed. Please download it instead.</p>
         </object>
     </Layout>
