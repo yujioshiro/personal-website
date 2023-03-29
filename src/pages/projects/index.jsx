@@ -11,9 +11,13 @@ export default function ProjectsPage() {
         projectsData.projects.map(project => (
           <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
             <article key={project.title}>
-            {project.liveLink === "N/A"?<h2>{project.title}</h2>:<h2><a href={project.liveLink}>{project.title}</a></h2>}
-            <p>{project.description}</p>
-            <a href={project.githubLink}>View on Github</a>
+              <header>{project.liveLink === "N/A"?<h4>{project.title}</h4>:<h4><a href={project.liveLink}>{project.title}</a></h4>}</header>
+            {/* <p dangerouslySetInnerHTML={{ __html: project.description }}>{project.description}</p> */}
+            <span dangerouslySetInnerHTML={{ __html: project.description }}></span>
+            <footer class="project-footer">
+              <a href={project.githubLink}>view on github</a>
+              {project.article !== "N/A"?<a href={project.article}>read details</a>:null}
+            </footer>
             </article>
           </div>
 
@@ -23,16 +27,3 @@ export default function ProjectsPage() {
     </Layout>
   )
 }
-
-// projectsData.projects.map(project => (
-//   <article key={project.title} class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-//     if ({project.title}) {
-//     <h2>{project.title}</h2>
-
-//     } else {
-//       <h2>Hello</h2>
-//     }
-//     <p>{project.description}</p>
-//     <a href={project.link}>View on Github</a>
-//   </article>
-// ))
