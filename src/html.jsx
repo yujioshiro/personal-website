@@ -5,7 +5,7 @@ export default function HTML(props) {
     <html {...props.htmlAttributes}>
       <head>
         {/* <link href="../../../static/stylesheets/styles.css" rel="stylesheet"/> */}
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="description" content="Yuji Oshiro's portfolio and blog" />
         <meta name="author" content="Yuji Oshiro" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
