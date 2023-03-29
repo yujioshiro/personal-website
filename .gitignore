@@ -7,3 +7,4 @@ public
 .netlify
 
 .env.*
+settings.json
