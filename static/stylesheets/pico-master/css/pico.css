@@ -12,7 +12,7 @@
     "Segoe UI Symbol", "Noto Color Emoji";
   --line-height: 1.5;
   --font-weight: 400;
-  --font-size: 20px;
+  --font-size: 16px;
   --border-radius: 0.75rem;
   --border-width: 1px;
   --outline-width: 3px;
@@ -614,11 +614,11 @@ body > footer {
     max-width: 920px;
   }
 }
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .container {
     max-width: 1130px;
   }
-}
+} */
 
 /**
  * Section
@@ -1060,6 +1060,12 @@ a[role=button]:not([href]) {
 /**
  * Form elements
  */
+form {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 input,
 optgroup,
 select,
@@ -1871,7 +1877,8 @@ details[open] > summary::after {
  * Card (<article>)
  */
 article {
-  margin: var(--block-spacing-vertical) 0;
+  /* margin: var(--block-spacing-vertical) 0; */
+  margin: 0;
   padding: var(--block-spacing-vertical) var(--block-spacing-horizontal);
   border-radius: var(--border-radius);
   background: var(--card-background-color);
@@ -1897,6 +1904,24 @@ article > footer {
   border-top: var(--border-width) solid var(--card-border-color);
   border-bottom-right-radius: var(--border-radius);
   border-bottom-left-radius: var(--border-radius);
+}
+
+article > .project-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+article > header > * {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* Target playlist names */
+.row > div > article > header > .playlist-name {
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  white-space: nowrap;
+  font-size: 115%;
 }
 
 /**
@@ -2685,8 +2710,9 @@ textarea,
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  /* padding-right: calc(var(--bs-gutter-x) * 0.5); */
+  /* padding-left: calc(var(--bs-gutter-x) * 0.5); */
+  padding: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
 
