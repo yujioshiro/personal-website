@@ -1,18 +1,26 @@
 {
     "projects": [
+
+      {
+        "title": "timesync",
+        "liveLink": "https://timesync.yujioshiro.com",
+        "description": "Broadcasts a modulated time signal for users to sync their radio controlled clocks and watches. WIP while I figre out the modulation algorithm.",
+        "githubLink": "https://github.com/yujioshiro/timesync",
+        "article": "https://yujioshiro.com"
+      },
       {
         "title": "merchduck",
         "liveLink": "https://merchduck.com",
         "description": "A screen printing business website with simple ordering process. Uses a private API to get pricing data from suppliers.",
         "githubLink": "https://github.com/yujioshiro/merchduck",
-        "article": "www.google.com"
+        "article": "https://yujioshiro.com"
       },
       {
         "title": "this website",
         "liveLink": "N/A",
-        "description": "You're exploring it now! <a href=\"/blog\">Blogs</a> are written in markdown, Spotify API used for <a href=\"/playlists\">playlists</a>.",
+        "description": "You're exploring it now! <a href=\"/blog\">Blogs</a> are written in markdown.",
         "githubLink": "https://github.com/yujioshiro/personal-website",
-        "article": "https://www.google.com"
+        "article": "https://yujioshiro.com"
       },
       {
         "title": "Truth or Dare",
@@ -26,7 +34,7 @@
         "liveLink": "",
         "description": "A graphical website showing a beach scene based on your location using the weather API.",
         "githubLink": "https://github.com/yujioshiro/sunset-generator",
-        "article": "www.google.com"
+        "article": "N/A"
       },
       {
         "title": "Calculator",
