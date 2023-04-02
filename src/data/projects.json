@@ -4,7 +4,7 @@
       {
         "title": "timesync",
         "liveLink": "https://timesync.yujioshiro.com",
-        "description": "Broadcasts a modulated time signal for users to sync their radio controlled clocks and watches. WIP while I figre out the modulation algorithm.",
+        "description": "Broadcasts a modulated time signal for users to sync their radio controlled clocks and watches. WIP while I figure out the modulation algorithm.",
         "githubLink": "https://github.com/yujioshiro/timesync",
         "article": "https://yujioshiro.com"
       },
