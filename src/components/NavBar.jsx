@@ -26,9 +26,6 @@ export default function NavBar() {
         <li class="hide-on-small">
           <Link to="/contact" className="text-link" activeClassName="active">contact</Link>
         </li>
-        {/* <li>
-          <Link to="/playlists" className="text-link" activeClassName="active">playlists</Link>
-        </li> */}
       </ul>
     </nav>
     </header>
