@@ -524,3 +524,8 @@ progress,
 }
 
 /*# sourceMappingURL=default.css.map */
+
+/* Prevents Safari from darkening PDF */
+object[type="application/pdf"] {
+  background-color: transparent !important;
+}
