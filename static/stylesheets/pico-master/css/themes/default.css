@@ -527,5 +527,6 @@ progress,
 
 /* Prevents Safari from darkening PDF */
 object[type="application/pdf"] {
-  background-color: transparent !important;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
