@@ -41,8 +41,8 @@ const IndexPage = () => (
     <div class="homepage-sections" id="homepage-projects-section">
       <h2 class="main-page-subheadings">what I'm working on</h2>
       <ul class="main-page-descriptions">
-        <li><a href="https://playlistpal.yujioshiro.com">PlaylistPal</a>, react, view <a href="https://github.com/yujioshiro/playlistpal">github repo</a></li>
-        <li><a href="https://timesync.yujioshiro.com">timesync</a>, react, view <a href="https://github.com/yujioshiro/timesync">github repo</a></li>
+        <li><a href="https://playlistpal.yujioshiro.com" target="_blank" rel="noopener">PlaylistPal</a>, react, view <a href="https://github.com/yujioshiro/playlistpal">github repo</a></li>
+        <li><a href="https://merchduck.com" target="_blank" rel="noopener">merchduck</a>, vanilla js</li>
         <li>this website, gatsby.js, view <a href="https://github.com/yujioshiro/personal-website">github repo</a></li>
         <li>view <a href="/projects">all projects</a></li>
       </ul>
