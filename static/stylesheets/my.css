@@ -1,0 +1,19 @@
+.project-description {
+    display: inline-block;
+    height: auto;
+}
+
+.project-footer {
+}
+
+@media (min-width: 768px) {
+    .project-description {
+        height: 75px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .project-description {
+        height: 100px;
+    }
+}

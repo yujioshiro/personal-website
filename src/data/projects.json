@@ -3,15 +3,8 @@
       {
         "title": "PlaylistPal",
         "liveLink": "https://playlistpal.yujioshiro.com",
-        "description": "Utilizing GPT-3 to create better playlists.",
+        "description": "Utilizes GPT-3 and the Spotify Web API to curate more accurate playlists for listeners.",
         "githubLink": "https://github.com/yujioshiro/playlistpal",
-        "article": "N/A"
-      },
-      {
-        "title": "timesync",
-        "liveLink": "https://timesync.yujioshiro.com",
-        "description": "Broadcasts a modulated time signal for users to sync their radio controlled clocks and watches. WIP while I figure out the modulation algorithm.",
-        "githubLink": "https://github.com/yujioshiro/timesync",
         "article": "N/A"
       },
       {
