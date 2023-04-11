@@ -1916,14 +1916,6 @@ article > header > * {
   text-align: center;
 }
 
-/* Target playlist names */
-.row > div > article > header > .playlist-name {
-  text-overflow: ellipsis;
-  overflow: hidden; 
-  white-space: nowrap;
-  font-size: 115%;
-}
-
 /**
  * Modal (<dialog>)
  */
