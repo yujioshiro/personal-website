@@ -3,7 +3,7 @@
       {
         "title": "PlaylistPal",
         "liveLink": "https://playlistpal.yujioshiro.com",
-        "description": "Utilizes GPT-3 and the Spotify Web API to curate more accurate playlists for listeners.",
+        "description": "Utilizes GPT-3 and the Spotify Web API to curate more personal playlists.",
         "githubLink": "https://github.com/yujioshiro/playlistpal",
         "article": "N/A"
       },
