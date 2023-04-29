@@ -39,7 +39,7 @@ const IndexPage = () => (
     </div> */}
 
     <div class="homepage-sections" id="homepage-projects-section">
-      <h2 class="main-page-subheadings">what I'm working on</h2>
+      <h2 class="main-page-subheadings">things I'm working on</h2>
       <ul class="main-page-descriptions">
         <li><a href="https://playlistpal.yujioshiro.com" target="_blank" rel="noopener">PlaylistPal</a>, react, view <a href="https://github.com/yujioshiro/playlistpal">github repo</a></li>
         <li><a href="https://merchduck.com" target="_blank" rel="noopener">merchduck</a>, vanilla js</li>
@@ -55,13 +55,13 @@ const IndexPage = () => (
     </div> */}
 
     <div class="homepage-sections">
-<h2 class="main-page-subheadings" id="homepage-searching-section">what I'm looking for</h2>
+<h2 class="main-page-subheadings" id="homepage-searching-section">things I'm looking for</h2>
     <ul class="main-page-descriptions">
       <li>a software developer internship, review my <a href="/resume">resume</a></li>
-      <li>to support a research group with programming and data processing tasks, <a href="/contact">recruit me</a></li>
+      {/* <li>to support a research group with programming and data processing tasks, <a href="/contact">recruit me</a></li>
       <ul>
         <li>preference for research groups working with natural world data, human population data, and space</li>
-      </ul>
+      </ul> */}
     </ul>
 </div>
 {/* <div class="homepage-sections">
