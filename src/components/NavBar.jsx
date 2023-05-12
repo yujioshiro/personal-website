@@ -7,7 +7,7 @@ export default function NavBar() {
     <nav>
       <ul>
         <li id="main-name">
-          <Link to="/" className="text-link" activeClassName="active">yuji oshiro</Link>
+          <Link to="/" className="text-link" activeClassName="active">home</Link>
         </li>
         <li id="mobile-name">
           <Link to="/" className="text-link" activeClassName="active">home</Link>

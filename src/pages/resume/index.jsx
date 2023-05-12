@@ -25,6 +25,7 @@ const Resume = () => {
 
   return (
     <Layout>
+      <h1>yuji oshiro's resume</h1>
       <div style={{ maxWidth: "700px", margin:"2vh auto", backgroundColor: '#fff'}}>
         <object ref={objectRef} data={`../resume/YujiOshiroResume.pdf?v=${new Date().getTime()}`} type="application/pdf" width="100%">
           <p>Unable to display PDF. Please <a href="../resume/YujiOshiroResume.pdf" title="Download YujiOshiroResume.pdf" download>download</a> it instead.</p>

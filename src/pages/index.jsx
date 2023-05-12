@@ -8,8 +8,16 @@ import Layout from '../components/Layout';
 const IndexPage = () => (
   <Layout>
     <div class="homepage-sections" id="homepage-about-section">
-    <h1>welcome to my website!</h1>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;I am a second year computer science student, <a href="https://merchduck.com" target="_blank" rel="noreferrer">business owner</a>, and curious learner of all things around us. {/*Sometimes I <a href="./blog">write</a> about my findings!*/} My favorite hobby is talking to people and learning more about the human condition.</p>
+    <h1>yuji oshiro's website</h1>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;I am a second year computer science student, <a href="https://merchduck.com" target="_blank" rel="noopener">business owner</a>, and curious learner of all things around us. {/*Sometimes I <a href="./blog">write</a> about my findings!*/} My favorite hobby is talking to people and learning more about the human condition.</p>
+    </div>
+
+    <div class="homepage-sections" id="homepage-links-section">
+      <h2 class="main-page-subheadings">links</h2>
+      <ul class="main-page-descriptions">
+        <li><a href="https://github.com/yujioshiro" target="_blank" rel="noopener">github</a></li>
+        <li><a href="https://www.linkedin.com/in/yujioshiro/" target="_blank" rel="noopener">linkedin</a></li>
+      </ul>
     </div>
 
     {/* <div class="homepage-sections" id="homepage-experiences-section">
@@ -58,10 +66,10 @@ const IndexPage = () => (
 <h2 class="main-page-subheadings" id="homepage-searching-section">things I'm looking for</h2>
     <ul class="main-page-descriptions">
       <li>a software developer internship, review my <a href="/resume">resume</a></li>
-      {/* <li>to support a research group with programming and data processing tasks, <a href="/contact">recruit me</a></li>
+      <li>to support a research group with programming and data processing tasks, <a href="/contact">recruit me</a></li>
       <ul>
         <li>preference for research groups working with natural world data, human population data, and space</li>
-      </ul> */}
+      </ul>
     </ul>
 </div>
 {/* <div class="homepage-sections">

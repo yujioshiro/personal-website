@@ -5,7 +5,7 @@ import projectsData from "../../data/projects.json";
 export default function ProjectsPage() {
   return (
     <Layout>
-        <h1>what I've built</h1>
+        <h1>yuji oshiro's projects</h1>
         <div class="row row-example">
       {
         projectsData.projects.map(project => (
