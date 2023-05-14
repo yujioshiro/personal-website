@@ -12,13 +12,13 @@ const IndexPage = () => (
     <p>&nbsp;&nbsp;&nbsp;&nbsp;I am a second year computer science student, <a href="https://merchduck.com" target="_blank" rel="noopener">business owner</a>, and curious learner of all things around us. {/*Sometimes I <a href="./blog">write</a> about my findings!*/} My favorite hobby is talking to people and learning more about the human condition.</p>
     </div>
 
-    <div class="homepage-sections" id="homepage-links-section">
+    {/* <div class="homepage-sections" id="homepage-links-section">
       <h2 class="main-page-subheadings">links</h2>
       <ul class="main-page-descriptions">
         <li><a href="https://github.com/yujioshiro" target="_blank" rel="noopener">github</a></li>
         <li><a href="https://www.linkedin.com/in/yujioshiro/" target="_blank" rel="noopener">linkedin</a></li>
       </ul>
-    </div>
+    </div> */}
 
     {/* <div class="homepage-sections" id="homepage-experiences-section">
     <h2>experiences</h2>
