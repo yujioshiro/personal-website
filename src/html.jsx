@@ -6,9 +6,10 @@ export default function HTML(props) {
       <head>
         {/* <link href="../../../static/stylesheets/styles.css" rel="stylesheet"/> */}
         <meta charSet="UTF-8" />
-        <meta name="description" content="Yuji Oshiro's portfolio and blog" />
+        <meta name="description" content="The things Yuji Oshiro does" />
         <meta name="author" content="Yuji Oshiro" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Yuji Oshiro</title>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
