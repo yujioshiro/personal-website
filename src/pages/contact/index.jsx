@@ -5,7 +5,7 @@ import Layout from '../../components/Layout';
 export default function IndexPage() {
   return (
     <Layout>
-        <h1>ccontact yuji oshiro</h1>
+        <h1>contact yuji oshiro</h1>
         <form name="contact" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
             <input type="text" id="name" name="name" placeholder="name" autoComplete='name' required/>
