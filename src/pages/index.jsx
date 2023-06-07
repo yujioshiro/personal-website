@@ -55,9 +55,9 @@ const IndexPage = () => (
           <li>This site will let students review their courses and professors</li>
           <li>The frontend is built with React. The charts are created with VictoryCharts</li>
           <li>Currently learning PostgreSQL to build a database to make multi-school possible</li>
-          <li>I will initially launch it to IVC and Saddleback College students and hope to turn it into an open-data project where students from other schools can help collect the course and professor information for their school</li>
+          <li>I will initially launch it to  IVC and Saddleback College students and hope to turn it into an open-data project where students from other schools can help collect the course and professor information for their school</li>
         </ul>
-        <li><a href="https://playlistpal.yujioshiro.com" target="_blank" rel="noopener">PlaylistPal</a>, react, view <a href="https://github.com/yujioshiro/playlistpal">github repo</a></li>
+        <li><a href="https://playlistpal.yujioshiro.com" target="_blank" rel="noopener">Playlist Pal</a>, react, view <a href="https://github.com/yujioshiro/playlist-pal">github repo</a></li>
         {/* <li><a href="https://merchduck.com" target="_blank" rel="noopener">merchduck</a>, vanilla js</li> */}
         {/* <li>this website, gatsby.js, view <a href="https://github.com/yujioshiro/personal-website">github repo</a></li> */}
         <li>view <a href="/projects">all projects</a></li>
