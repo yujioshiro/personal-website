@@ -14,9 +14,9 @@ export default function NavBar() {
         </li>
       </ul>
       <ul>
-        <li>
+        {/* <li>
           <Link to="/projects" className="text-link" activeClassName="active">projects</Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/resume" className="text-link" activeClassName="active">resume</Link>
         </li>

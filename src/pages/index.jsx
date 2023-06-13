@@ -51,16 +51,16 @@ const IndexPage = () => (
       <h2 class="main-page-subheadings">things I'm working on</h2>
       <ul class="main-page-descriptions">
         <li><a href="https://playlistpal.yujioshiro.com" target="_blank" rel="noopener">Playlist Pal</a>, react, view <a href="https://github.com/yujioshiro/playlist-pal">github repo</a></li>
-        <li><a href="https://courseguide.yujioshiro.com" target="_blank" rel="noopener">Course Guide</a></li>
+        {/* <li><a href="https://courseguide.yujioshiro.com" target="_blank" rel="noopener">Course Guide</a></li>
         <ul>
           <li>This site will let students review their courses and professors</li>
           <li>The frontend is built with React. The charts are created with VictoryCharts</li>
           <li>Currently learning PostgreSQL to build a database to make multi-school possible</li>
           <li>I will initially launch it to  IVC and Saddleback College students and hope to turn it into an open-data project where students from other schools can help collect the course and professor information for their school</li>
-        </ul>
+        </ul> */}
         {/* <li><a href="https://merchduck.com" target="_blank" rel="noopener">merchduck</a>, vanilla js</li> */}
         {/* <li>this website, gatsby.js, view <a href="https://github.com/yujioshiro/personal-website">github repo</a></li> */}
-        <li>view <a href="/projects">all projects</a></li>
+        <li><a href="https://github.com/yujioshiro">view GitHub</a></li>
       </ul>
     </div>
 
@@ -71,21 +71,21 @@ const IndexPage = () => (
     </div> */}
 
     <div class="homepage-sections">
-<h2 class="main-page-subheadings" id="homepage-searching-section">things I'm looking for</h2>
-    <ul class="main-page-descriptions">
-      <li>a software developer internship, review my <a href="/resume">resume</a></li>
-      <li>to support a research group with programming and data processing tasks, <a href="/contact">recruit me</a></li>
-      <ul>
-        <li>preference for research groups working with natural world data, human population data, and space</li>
+      <h2 class="main-page-subheadings" id="homepage-searching-section">things I'm looking for</h2>
+      <ul class="main-page-descriptions">
+        <li>a software developer internship, review my <a href="/resume">resume</a></li>
+        {/* <li>to support a research group with programming and data processing tasks, <a href="/contact">recruit me</a></li>
+        <ul>
+          <li>preference for research groups working with natural world data, human population data, and space</li>
+        </ul>
+        <li>people to interview. If any of these describes you and you wouldn't mind sharing your story, I'd love to talk to you!</li>
+        <ul>
+          <li>immigrant (of any country)</li>
+          <li>have a big dream</li>
+          <li>are working with exclusive technology</li>
+        </ul> */}
       </ul>
-      <li>people to interview. If any of these describes you and you wouldn't mind sharing your story, I'd love to talk to you!</li>
-      <ul>
-        <li>immigrant (of any country)</li>
-        <li>have a big dream</li>
-        <li>are working with exclusive technology</li>
-      </ul>
-    </ul>
-</div>
+    </div>
 {/* <div class="homepage-sections">
 
 </div> */}
