@@ -60,7 +60,7 @@ const IndexPage = () => (
         </ul> */}
         {/* <li><a href="https://merchduck.com" target="_blank" rel="noopener">merchduck</a>, vanilla js</li> */}
         {/* <li>this website, gatsby.js, view <a href="https://github.com/yujioshiro/personal-website">github repo</a></li> */}
-        <li>view more projects on <a href="https://github.com/yujioshiro">GitHub</a></li>
+        <li>view <a href="https://github.com/yujioshiro">more projects</a></li>
       </ul>
     </div>
 
