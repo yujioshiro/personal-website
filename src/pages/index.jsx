@@ -50,7 +50,7 @@ const IndexPage = () => (
     <div class="homepage-sections" id="homepage-projects-section">
       <h2 class="main-page-subheadings">things I'm working on</h2>
       <ul class="main-page-descriptions">
-        <li><a href="https://playlistpal.yujioshiro.com" target="_blank" rel="noopener">Playlist Pal</a>, react, view <a href="https://github.com/yujioshiro/playlist-pal">github repo</a></li>
+        <li><a href="https://playlistpal.yujioshiro.com" target="_blank" rel="noopener">Playlist Pal</a>, view <a href="https://github.com/yujioshiro/playlist-pal">github repo</a></li>
         {/* <li><a href="https://courseguide.yujioshiro.com" target="_blank" rel="noopener">Course Guide</a></li>
         <ul>
           <li>This site will let students review their courses and professors</li>
@@ -60,7 +60,7 @@ const IndexPage = () => (
         </ul> */}
         {/* <li><a href="https://merchduck.com" target="_blank" rel="noopener">merchduck</a>, vanilla js</li> */}
         {/* <li>this website, gatsby.js, view <a href="https://github.com/yujioshiro/personal-website">github repo</a></li> */}
-        <li><a href="https://github.com/yujioshiro">view GitHub</a></li>
+        <li>view more projects on <a href="https://github.com/yujioshiro">GitHub</a></li>
       </ul>
     </div>
 
