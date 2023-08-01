@@ -9,6 +9,9 @@ export default function HTML(props) {
         <meta name="description" content="The things Yuji Oshiro does" />
         <meta name="author" content="Yuji Oshiro" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta name="darkreader-lock" />
+
         <title>Yuji Oshiro</title>
         {props.headComponents}
       </head>
