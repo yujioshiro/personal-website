@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <div class="homepage-sections" id="homepage-about-section">
     <h1>yuji oshiro's website</h1>
-    <p>Second-year computer science student, part-time CS tutor, and serious learner of web development.{/*Sometimes I <a href="./blog">write</a> about my findings!*/} My favorite hobby is talking to people and learning more about the human condition.</p>
+    <p>software engineer intern @ Hack for LA, third-year computer science student @ Oregon State University, and part-time CS tutor.{/*Sometimes I <a href="./blog">write</a> about my findings!*/} My favorite hobby is talking to people and learning more about the human condition.</p>
     <p>I also <a href="https://merchduck.com" target="_blank" rel="noopener">print shirts</a> for hackathons and school clubs across the US!</p>
     </div>
 
@@ -70,11 +70,11 @@ const IndexPage = () => (
       </ul>
     </div> */}
 
-    <div class="homepage-sections">
+    {/* <div class="homepage-sections">
       <h2 class="main-page-subheadings" id="homepage-searching-section">things I'm looking for</h2>
       <ul class="main-page-descriptions">
         <li>a software developer internship, review my <a href="/resume">resume</a></li>
-        {/* <li>to support a research group with programming and data processing tasks, <a href="/contact">recruit me</a></li>
+        <li>to support a research group with programming and data processing tasks, <a href="/contact">recruit me</a></li>
         <ul>
           <li>preference for research groups working with natural world data, human population data, and space</li>
         </ul>
@@ -83,9 +83,9 @@ const IndexPage = () => (
           <li>immigrant (of any country)</li>
           <li>have a big dream</li>
           <li>are working with exclusive technology</li>
-        </ul> */}
+        </ul>
       </ul>
-    </div>
+    </div> */}
 {/* <div class="homepage-sections">
 
 </div> */}
