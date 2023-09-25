@@ -18,6 +18,9 @@ export default function NavBar() {
           <Link to="/projects" className="text-link" activeClassName="active">projects</Link>
         </li> */}
         <li>
+          <Link to="/meetup" className="text-link" activeClassName="active">meetup</Link>
+        </li>
+        <li>
           <Link to="/resume" className="text-link" activeClassName="active">resume</Link>
         </li>
         {/* <li>
