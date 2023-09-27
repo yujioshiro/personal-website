@@ -13,7 +13,7 @@ export default function ProjectsPage() {
             <ul>
               <li>we meet every other Wednesday at 6pm</li>
               <li>@ The Lost Bean, 4632 Barranca Pkwy, Irvine (in the Woodbridge Village Center)</li>
-              <li>we are part of Learn Teach Code LA, you can RSVP to events <a href="https://www.meetup.com/learnteachcode/" target='_blank'>here</a>!</li>
+              <li>we are part of Learn Teach Code LA, you can RSVP to the event <a href="https://www.meetup.com/learnteachcode/events/296259595/" target='_blank'>here</a>!</li>
               <li>the quickest way to get your question answered is in the #irvine channel in the <a href="https://discord.gg/TnqPC9mFSf" target='_blank'>LTC Discord Server</a>. If you don't have discord, feel free to message me on <a href="https://www.linkedin.com/in/yujioshiro/" target='_blank'>LinkedIn</a></li>
               {/* <li>No, you do not have to be a working developer to join us. This meetup is open to engineers, salespersons, owners, students, and anyone generally interested in tech and software</li> */}
             </ul>
