@@ -12,7 +12,7 @@ export default function ProjectsPage() {
             <ul>
               <li>meet every other Wednesday at 6pm</li>
               <li>@ The center of the Woodbridge Village Center (The tables under the orange covers in front of Cha)</li>
-              <li>we are part of Learn Teach Code LA, you can RSVP to the event <a href="https://www.meetup.com/learnteachcode/events/297692498/" target='_blank'>here</a>!</li>
+              <li>we are part of Learn Teach Code LA, you can RSVP to the event <a href="https://www.meetup.com/learnteachcode/events/297954536/" target='_blank'>here</a>!</li>
               <li>for any questions:
                 <ul>
                   <li>#irvine channel in the <a href="https://discord.gg/TnqPC9mFSf" target='_blank'>LTC Discord Server</a></li>
