@@ -5,7 +5,7 @@ export default function ProjectsPage() {
   return (
     <Layout>
         <h1><strong>tech meetups yuji runs in orange county, ca</strong></h1>
-        <h2>Sunset Hike OR Bike with New Tech Friends</h2>
+        {/* <h2>Sunset Hike OR Bike with New Tech Friends</h2>
         <div class="">
           <article>
             <h3>Next meetup: Saturday, March 9th, 4pm</h3>
@@ -20,7 +20,7 @@ export default function ProjectsPage() {
               </li>
             </ul>
           </article>
-        </div>
+        </div> */}
         <h2>Irvine Code and Coffee</h2>
         <div class="">
           <article>
