@@ -28,7 +28,7 @@ export default function ProjectsPage() {
             <p>This is a casual meetup for developers, designers, and everyone in tech! Despite the name, we don't code at these meetups; we like to talk, meet new friends, and make new connections.</p>
             <ul>
               <li>meet every other Wednesday at 6pm</li>
-              <li>@ Hangar 24 (exact location will be sent in the Discord ), <a href="https://maps.app.goo.gl/SUDHHD31Qq2J8Yqc7">17877 Von Karman Ave Unit 110, Irvine, CA 92614</a></li>
+              <li>@ Hangar 24 (exact location will be sent in the Discord), <a href="https://maps.app.goo.gl/SUDHHD31Qq2J8Yqc7">17877 Von Karman Ave Unit 110, Irvine, CA 92614</a></li>
               <li>RSVP to the event <a href="https://www.meetup.com/oc-tech-link-up/events/299716042" target='_blank'>here</a>!</li>
               <li>for any questions:
                 <ul>
