@@ -4,15 +4,16 @@ import Layout from '../../components/Layout';
 export default function ProjectsPage() {
   return (
     <Layout>
-        <h1><strong>tech meetups yuji runs in orange county, ca</strong></h1>
-        {/* <h2>Sunset Hike OR Bike with New Tech Friends</h2>
+        <h1><strong>tech meetups yuji helps run in orange county, ca</strong></h1>
+        
+        <h2>Hike with New Tech Friends</h2>
         <div class="">
           <article>
-            <h3>Next meetup: Saturday, March 9th, 4pm</h3>
-            <p>Come on a casual hike OR bike at the Newport Bay. You can join either the hiking group (3 mile walk around the upper bay) or the biking around (10 miles around the full Back bay loop).</p>
+            <h3>Sunday, April 21st, 10am</h3>
+            <p>Come on a casual hike at the Bommer Canyon trails. It will be a casual 1-1.5hr walk with new friends!</p>
             <ul>
-              <li>@ the accessible parking spots in the <a href="https://maps.app.goo.gl/mZSenC5Y7bm5ghNdA">Peter and Mary Muth Interpretive Center Parking Lot</a></li>
-              <li>More info and RSVP to the event <a href="https://www.meetup.com/oc-tech-link-up/events/299003219/" target='_blank'>here</a>!</li>
+              <li>We will meet at the <a href="https://maps.app.goo.gl/dvT1gJjjjQERzYKt7">Turtle Rock Community Park parking lot</a> (somewhere by the tennis courts). There are 40+ people RSVPd, so it should be pretty easy to spot us.</li>
+              <li>More info and RSVP to the event <a href="https://www.meetup.com/oc-tech-link-up/events/300157916/" target='_blank'>here</a>!</li>
               <li>for any questions:
                 <ul>
                   <li>#general channel in the Tech Link Up <a href="https://discord.com/channels/1187489446245961748/1187489446245961751" target='_blank'>Discord Server</a></li>
@@ -20,7 +21,8 @@ export default function ProjectsPage() {
               </li>
             </ul>
           </article>
-        </div> */}
+        </div>
+
         <h2>Irvine Code and Coffee</h2>
         <div class="">
           <article>
