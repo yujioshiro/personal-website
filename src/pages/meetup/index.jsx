@@ -12,7 +12,7 @@ export default function ProjectsPage() {
             <h3>Sunday, April 21st, 10am</h3>
             <p>Come on a casual hike at the Bommer Canyon trails. It will be an easy 1-1.5hr walk with new friends!</p>
             <ul>
-              <li>We will meet at the <a href="https://maps.app.goo.gl/dvT1gJjjjQERzYKt7">Turtle Rock Community Park parking lot</a> (somewhere by the tennis courts). There are 40+ people RSVPd, so it should be pretty easy to spot us.</li>
+              <li>We will meet at the Turtle Rock Community Park parking lot (somewhere by the tennis courts), <a href="https://maps.app.goo.gl/dvT1gJjjjQERzYKt7">1 Sunnyhill, Irvine, CA 92603</a>. There are 40+ people RSVPd, so it should be pretty easy to spot us.</li>
               <li>More info and RSVP to the event <a href="https://www.meetup.com/oc-tech-link-up/events/300157916/" target='_blank'>here</a>!</li>
               <li>for any questions:
                 <ul>
