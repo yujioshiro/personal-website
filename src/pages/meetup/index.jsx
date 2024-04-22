@@ -65,7 +65,7 @@ export default function ProjectsPage() {
             <p>This event is in collaboration with Friends of Figma Irvine. We will be going on a cruise out of Newport Beach on a 100 person catamaran. Tickets are $29 until April 26th, after they will go up to $34. There is a lot more info in the meetup page, so please read through it!</p>
             <ul>
               <li>@ Newport Landing Whale Watching, <a href="https://maps.app.goo.gl/HZWi89K4ZEkCjf898">309 Palm St A, Newport Beach, CA 92661</a></li>
-              <li>RSVP to the event <a href="https://www.meetup.com/friends-of-figma-irvine-ux-design-group/events/300377382" target='_blank'>here</a>!</li>
+              <li>RSVP and pay for the event <a href="https://www.meetup.com/friends-of-figma-irvine-ux-design-group/events/300377382" target='_blank'>here</a>!</li>
               <li>for any questions:
                 <ul>
                   <li>#general channel in the Tech Link Up <a href="https://discord.com/channels/1187489446245961748/1187489446245961751" target='_blank'>Discord Server</a></li>
