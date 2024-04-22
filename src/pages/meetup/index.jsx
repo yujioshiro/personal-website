@@ -41,9 +41,9 @@ export default function ProjectsPage() {
           </article>
         </div>
 
-        <h2>Community Collab Night</h2>
         <div class="">
           <article>
+            <h2>Community Collab Night</h2>
             <h3>Next meetup: Thursday, May 2nd, 6pm</h3>
             <p>This is an event for members of the community to share projects their working on or share ideas so they can find collaborators. Everyone is welcome! If you have a project, come share it. If you aren't currently working on anything outside of work, but want to see what the community is up to, come on by!</p>
             <ul>
@@ -58,9 +58,9 @@ export default function ProjectsPage() {
           </article>
         </div>
 
-        <h2>Sunset Cruise with Friends of Figma!</h2>
         <div class="">
           <article>
+            <h2>Sunset Cruise with Friends of Figma!</h2>
             <h3>Wednesday, May 29th, 7pm</h3>
             <p>This event is in collaboration with Friends of Figma Irvine. We will be going on a cruise out of Newport Beach on a 100 person catamaran. Tickets are $29 until April 26th, after they will go up to $34. There is a lot more info in the meetup page, so please read through it!</p>
             <ul>
