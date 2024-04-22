@@ -22,10 +22,10 @@ export default function ProjectsPage() {
             </ul>
           </article>
         </div> */}
-
-        <h2>Irvine Code and Coffee</h2>
+        
         <div class="">
           <article>
+            <h2>Irvine Code and Coffee</h2>
             <h3>Next meetup: Wednesday, April 24th, 6pm</h3>
             <p>This is a casual meetup for developers, designers, and everyone in tech! Despite the name, we don't code at these meetups; we like to talk, meet new friends, and make new connections.</p>
             <ul>
