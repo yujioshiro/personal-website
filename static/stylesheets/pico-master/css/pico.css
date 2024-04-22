@@ -1878,7 +1878,7 @@ details[open] > summary::after {
  */
 article {
   /* margin: var(--block-spacing-vertical) 0; */
-  margin: 0;
+  margin-bottom: 30px;
   padding: var(--block-spacing-vertical) var(--block-spacing-horizontal);
   border-radius: var(--border-radius);
   background: var(--card-background-color);
