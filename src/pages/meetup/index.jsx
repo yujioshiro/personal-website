@@ -23,7 +23,7 @@ export default function ProjectsPage() {
           </article>
         </div> */}
 
-        <div class="">
+        {/* <div class="">
           <article>
             <h2>Community Collab Night</h2>
             <h3>Next meetup: Thursday, May 2nd, 6pm</h3>
@@ -38,20 +38,20 @@ export default function ProjectsPage() {
               </li>
             </ul>
           </article>
-        </div>
+        </div> */}
 
         <div class="">
           <article>
             <h2>Irvine Code and Coffee</h2>
-            <h3>Next meetup: Wednesday, May 8th, 6pm</h3>
+            <h3>Next meetup: Wednesday, May 22nd, 6pm</h3>
             <p>This is a casual meetup for developers, designers, and everyone in tech! Despite the name, we don't code at these meetups; we like to talk, meet new friends, and make new connections.</p>
             <ul>
               <li>meet every other Wednesday at 6pm</li>
-              <li>@ Hangar 24 (exact location will be sent in the Discord), <a href="https://maps.app.goo.gl/SUDHHD31Qq2J8Yqc7">17877 Von Karman Ave Unit 110, Irvine, CA 92614</a></li>
-              <li>RSVP to the event <a href="https://www.meetup.com/oc-tech-link-up/events/300037347" target='_blank'>here</a>!</li>
+              <li>@ Hangar 24 (exact location will be sent in the Discord on the day of the event), <a href="https://maps.app.goo.gl/SUDHHD31Qq2J8Yqc7">17877 Von Karman Ave Unit 110, Irvine, CA 92614</a></li>
+              <li>RSVP to the event <a href="https://www.meetup.com/oc-tech-link-up/events/300459716" target='_blank'>here</a>!</li>
               <li>for any questions:
                 <ul>
-                  <li>#general channel in the Tech Link Up <a href="https://discord.com/channels/1187489446245961748/1187489446245961751" target='_blank'>Discord Server</a></li>
+                  <li>#questions channel in the Tech Link Up <a href="https://discord.com/channels/1187489446245961748/1187489446245961751" target='_blank'>Discord Server</a></li>
                 </ul>
               </li>
             </ul>
@@ -68,7 +68,7 @@ export default function ProjectsPage() {
               <li>RSVP and pay for the event <a href="https://www.meetup.com/friends-of-figma-irvine-ux-design-group/events/300377382" target='_blank'>here</a>!</li>
               <li>for any questions:
                 <ul>
-                  <li>#general channel in the Tech Link Up <a href="https://discord.com/channels/1187489446245961748/1187489446245961751" target='_blank'>Discord Server</a></li>
+                  <li>#questions channel in the Tech Link Up <a href="https://discord.com/channels/1187489446245961748/1187489446245961751" target='_blank'>Discord Server</a></li>
                 </ul>
               </li>
             </ul>
