@@ -44,7 +44,7 @@ export default function ProjectsPage() {
       <div class="">
         <article>
           <h2>Resume Review Night</h2>
-          <h3>Next meetup: Tuesday, September 3rd, 6pm</h3>
+          <h3>Next meetup: Thursday, September 5th, 6pm</h3>
           <p>Get your resume reviewed by experienced professionals!</p>
           <ul>
             <li>@ The Duck Club (provided by the Irvine Ranch Water District), <a href="https://maps.app.goo.gl/GsyWRf6Bjfs6E4Fo9">15 Riparian View, Irvine, CA 92612</a></li>
