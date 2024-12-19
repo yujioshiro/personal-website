@@ -6,14 +6,14 @@ export default function ProjectsPage() {
     <Layout>
       <h1><strong>tech meetups yuji helps run in orange county, ca</strong></h1>
 
-      {/* <h2>Hike with New Tech Friends</h2>
         <div class="">
           <article>
-            <h3>Sunday, April 21st, 10am</h3>
-            <p>Come on a casual hike at the Bommer Canyon trails. It will be an easy 1-1.5hr walk with new friends!</p>
+            <h2>New Year Hike with Tech Friends</h2>
+            <h3>Sunday, January 5th, 10am</h3>
+            <p>Join us for an easy, beginner-friendly hike along the Pacific Ridge Trail in Newport Beach!</p>
             <ul>
-              <li>We will meet at the Turtle Rock Community Park parking lot (somewhere by the tennis courts), <a href="https://maps.app.goo.gl/dvT1gJjjjQERzYKt7">1 Sunnyhill, Irvine, CA 92603</a>. There are 40+ people RSVPd, so it should be pretty easy to spot us.</li>
-              <li>More info and RSVP to the event <a href="https://www.meetup.com/oc-tech-link-up/events/300157916/" target='_blank'>here</a>!</li>
+              <li><a href="https://maps.app.goo.gl/wqx74Lzd2WKzfWEP6">Pacific Ridge trailhead</a> by Coastal Peak Park.</li>
+              <li>More info and RSVP to the event <a href="https://www.meetup.com/oc-tech-link-up/events/305111002" target='_blank'>here</a>!</li>
               <li>for any questions:
                 <ul>
                   <li>#general channel in the Tech Link Up <a href="https://discord.com/channels/1187489446245961748/1187489446245961751" target='_blank'>Discord Server</a></li>
@@ -21,17 +21,17 @@ export default function ProjectsPage() {
               </li>
             </ul>
           </article>
-        </div> */}
+        </div>
 
       <div class="">
         <article>
           <h2>Irvine Code and Coffee</h2>
-          <h3>Next meetup: Wednesday, September 25th, 6pm</h3>
+          <h3>Next meetup: Wednesday, January 15th, 6pm</h3>
           <p>This is a casual meetup for developers, designers, and everyone in tech! Despite the name, we don't code at these meetups; we like to talk, meet new friends, and make new connections.</p>
           <ul>
             <li>meet every other Wednesday at 6pm</li>
             <li>@ Hangar 24 (exact location will be sent in the Discord on the day of the event), <a href="https://maps.app.goo.gl/SUDHHD31Qq2J8Yqc7">17877 Von Karman Ave Unit 110, Irvine, CA 92614</a></li>
-            <li>RSVP to the event <a href="https://www.meetup.com/oc-tech-link-up/events/302298894" target='_blank'>here</a>!</li>
+            <li>RSVP to the event <a href="https://www.meetup.com/oc-tech-link-up/events/303290638" target='_blank'>here</a>!</li>
             <li>for any questions:
               <ul>
                 <li>#questions channel in the Tech Link Up <a href="https://discord.com/channels/1187489446245961748/1187489446245961751" target='_blank'>Discord Server</a></li>
