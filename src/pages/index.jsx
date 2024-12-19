@@ -9,8 +9,7 @@ const IndexPage = () => (
   <Layout>
     <div class="homepage-sections" id="homepage-about-section">
     <h1>yuji oshiro's website</h1>
-    <p>software engineer intern @ Hack for LA, third-year computer science student @ Oregon State University, and part-time CS tutor.{/*Sometimes I <a href="./blog">write</a> about my findings!*/} My favorite hobby is talking to people and learning more about the human condition.</p>
-    <p>I also <a href="https://merchduck.com" target="_blank" rel="noopener">print shirts</a> for hackathons and school clubs across the US!</p>
+    <p>fourth-year computer science student @ Oregon State University, part-time CS tutor. My favorite hobby is talking to people and learning more about the human condition.</p>
     </div>
 
     {/* <div class="homepage-sections" id="homepage-links-section">
@@ -21,46 +20,22 @@ const IndexPage = () => (
       </ul>
     </div> */}
 
-    {/* <div class="homepage-sections" id="homepage-experiences-section">
-    <h2>experiences</h2>
-    <ul>
-      <li>merchduck // owner & operator</li>
-      <ul>
-        <li>built an entire screen printing business from the ground up</li>
-        <li>perform all operational and financial tasks regarding the growth of the business</li>
-      </ul>
-      <li>Taco Bell // Level 1 Service Desk Analyst</li>
-      <ul>
-        <li>Perform troubleshooting</li>
-        <li>take calls</li>
-      </ul>
-      <li>The Darkroom // Assistant Production Manager</li>
-      <ul>
-        <li>manage anywhere from 5-10 lab techs</li>
-        <li>ensure the flow of production runs efficiently</li>
-      </ul>
-    </ul>
-    </div> */}
-
-    {/* <div class="homepage-sections" id="homepage-education-section">
-      <h2>education</h2>
-      <p>I am currently in my second year of computer science at Irvine Valley College, a 2-year community college in Irvine, California. I will be continuing my computer science studies at ___ this upcoming Fall semester and will be obtaining a bachelors degree in Spring 2025.</p>
-    </div> */}
-
     <div class="homepage-sections" id="homepage-projects-section">
       <h2 class="main-page-subheadings">things I'm working on</h2>
       <ul class="main-page-descriptions">
-        <li><a href="https://playlistpal.yujioshiro.com" target="_blank" rel="noopener">Playlist Pal</a>, view <a href="https://github.com/yujioshiro/playlist-pal">GitHub repo</a></li>
-        {/* <li><a href="https://courseguide.yujioshiro.com" target="_blank" rel="noopener">Course Guide</a></li>
+        <li>just started a new job! More details coming soon 😁</li>
+        <li>ALWAYS trying to build more opportunities for people in Orange County to meet new people and find new friends. Check out some of the events I run <a href="https://yujioshiro.com/meetup/">here</a>!</li>
+        {/* <li><a href="https://playlistpal.yujioshiro.com" target="_blank" rel="noopener">Playlist Pal</a>, view <a href="https://github.com/yujioshiro/playlist-pal">GitHub repo</a></li>
+        <li><a href="https://courseguide.yujioshiro.com" target="_blank" rel="noopener">Course Guide</a></li>
         <ul>
           <li>This site will let students review their courses and professors</li>
           <li>The frontend is built with React. The charts are created with VictoryCharts</li>
           <li>Currently learning PostgreSQL to build a database to make multi-school possible</li>
           <li>I will initially launch it to  IVC and Saddleback College students and hope to turn it into an open-data project where students from other schools can help collect the course and professor information for their school</li>
-        </ul> */}
-        {/* <li><a href="https://merchduck.com" target="_blank" rel="noopener">merchduck</a>, vanilla js</li> */}
-        {/* <li>this website, gatsby.js, view <a href="https://github.com/yujioshiro/personal-website">github repo</a></li> */}
-        <li>view <a href="https://github.com/yujioshiro">more projects</a></li>
+        </ul>
+        <li><a href="https://merchduck.com" target="_blank" rel="noopener">merchduck</a>, vanilla js</li>
+        <li>this website, gatsby.js, view <a href="https://github.com/yujioshiro/personal-website">github repo</a></li>
+        <li>view <a href="https://github.com/yujioshiro">more projects</a></li> */}
       </ul>
     </div>
 
