@@ -9,13 +9,13 @@ exports.onCreateWebpackConfig = ({ actions }) => {
   })
 }
 
-exports.createPages = ({ actions }) => {
-  const { createRedirect } = actions
+// exports.createPages = ({ actions }) => {
+//   const { createRedirect } = actions
 
-  createRedirect({
-    fromPath: `/card/`,
-    toPath: `/`,
-    redirectInBrowser: true,
-    isPermanent: true,
-  })
-}
+//   createRedirect({
+//     fromPath: `/card/`,
+//     toPath: `/`,
+//     redirectInBrowser: true,
+//     isPermanent: true,
+//   })
+// }
