@@ -14,20 +14,11 @@ export default function NavBar() {
         </li>
       </ul>
       <ul>
-        {/* <li>
-          <Link to="/projects" className="text-link" activeClassName="active">projects</Link>
-        </li> */}
         <li>
           <Link to="/meetup" className="text-link" activeClassName="active">meetup</Link>
         </li>
         <li>
           <Link to="/resume" className="text-link" activeClassName="active">resume</Link>
-        </li>
-        {/* <li>
-          <Link to="/blog" className="text-link" activeClassName="active">blog</Link>
-        </li> */}
-        <li class="hide-on-small">
-          <Link to="/contact" className="text-link" activeClassName="active">contact</Link>
         </li>
       </ul>
     </nav>
