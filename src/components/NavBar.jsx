@@ -15,9 +15,6 @@ export default function NavBar() {
       </ul>
       <ul>
         <li>
-          <Link to="/meetup" className="text-link" activeClassName="active">meetup</Link>
-        </li>
-        <li>
           <Link to="/resume" className="text-link" activeClassName="active">resume</Link>
         </li>
       </ul>
